@@ -20,7 +20,6 @@ public class Pass13_1 {
         temp2.put(7, 28.5);
         temp2.put(8, 33.5);
         temp2.put(9, 29.1);
-        */
 
         int[][] sales = {
             { 120, 130, 100, 110 },
