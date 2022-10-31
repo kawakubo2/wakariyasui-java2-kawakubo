@@ -1,7 +1,5 @@
 package chapter06;
 
-import javax.swing.event.SwingPropertyChangeSupport;
-
 public class Test2 {
     public static void main(String[] args) {
         String s = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
