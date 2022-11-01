@@ -5,7 +5,9 @@ public class Pass7_2 {
         int[] numbers1 = { 10, 23, 13, 71, 22 };
         int[] numbers2 = { 2, 3, 5, 3, 4 };
         for (int i = 0; i < 5; i++) {
-            System.out.println(numbers1[i] + "×" + numbers2[i] + "=" + (numbers1[i] * numbers2[i]));
+            // System.out.println(numbers1[i] + "×" + numbers2[i] + "=" + (numbers1[i] * numbers2[i]));
+            System.out.printf("%d×%d=%d%n", numbers1[i], numbers2[i],
+                numbers1[i] * numbers2[i]);
         }
     }
 }
