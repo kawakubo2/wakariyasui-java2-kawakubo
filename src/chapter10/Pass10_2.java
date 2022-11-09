@@ -11,7 +11,7 @@ public class Pass10_2 {
             count++;
         }
         System.out.printf("合計=%6.2f%n", total);
-        System.out.printf("件数=%d%n", count);
+        System.out.printf("件数=%3d%n", count);
         System.out.printf("平均=%6.2f%n", total / count);
     }
 }
