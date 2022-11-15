@@ -7,7 +7,6 @@ public class Pass13_3_1 {
             { 250, 230, 230, 240 },
             { 105, 110, 120, 125 }
         };
-        String[] fruitNames = {"ブドウ", "メロン", "バナナ"};
         System.out.print("\t");
         for (int i = 6; i <= 9; i++) {
             System.out.printf("%d月\t", i);
