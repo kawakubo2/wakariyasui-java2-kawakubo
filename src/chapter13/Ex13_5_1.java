@@ -9,10 +9,12 @@ public class Ex13_5_1 {
             { 12.2, 28.9, 19.9, 20.0, 25.7 }
         };
         for (double[] monthTemp: temp) {
+            double total = 0;
             for (double cityTemp: monthTemp) {
                 System.out.printf("%6.1f", cityTemp);
+                total += cityTemp;
             }
-            System.out.println();
+            System.out.printf("%6.1f%n", total / 5);
         }
     }
 }
