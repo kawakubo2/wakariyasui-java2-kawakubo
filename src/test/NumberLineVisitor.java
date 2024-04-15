@@ -6,10 +6,8 @@ import java.io.PrintWriter;
 import java.nio.file.Files;
 import java.nio.file.Path;
 
-public class MyFileWalker {
-    public void replace(String filepath) {
-        var path = Path.of(filepath);
-
+public class NumberLineVisitor {
+    public void replace(Path path) {
         Path tempPath = Path.of("temp.txt"); 
         try (BufferedReader in = Files.newBufferedReader(path);
              PrintWriter out = new PrintWriter(Files.newBufferedWriter(tempPath));) {
@@ -17,17 +15,12 @@ public class MyFileWalker {
             String line = "";
             int number = 1;
             while ((line = in.readLine()) != null) {
-                //out.printf("%d %s%n", number++, line);
-                out.println(line);
+                out.printf("%03d %s%n", number++, line);
             }
             Files.delete(path);
-            Files.move(tempPath, Path.of(filepath));
+            Files.move(tempPath, path);
         } catch (IOException e) {
             System.out.println(e);
         }
-    }
-    public static void main(String[] args) {
-        MyFileWalker mf = new MyFileWalker();
-        mf.replace("src/test/README.md");
     }
 }

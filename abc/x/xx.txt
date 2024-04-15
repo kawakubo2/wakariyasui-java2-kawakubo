@@ -1,0 +1,11 @@
+001 package chapter07;
+002 
+003 public class Ex7_2_2_2 {
+004     public static void main(String[] args) {
+005         String[] s = {"春", "夏", "秋", "冬"};
+006         System.out.println(s[0]);
+007         System.out.println(s[1]);
+008         System.out.println(s[2]);
+009         System.out.println(s[3]);
+010     }
+011 }

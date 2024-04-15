@@ -1,7 +1,5 @@
 package test;
 
-import lib.Input;
-
 public class SeasonTest {
     public static void main(String[] args) {
         Season[] seasons = Season.values();

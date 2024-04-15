@@ -1,0 +1,10 @@
+001 package chapter05;
+002 
+003 public class Review5_6_1 {
+004     public static void main(String[] args) {
+005         int a, b, c;
+006         b = c = 1;
+007         a = b += c++;
+008         System.out.println("a = " + a + " b = " + b + " c = " + c);
+009     }
+010 }

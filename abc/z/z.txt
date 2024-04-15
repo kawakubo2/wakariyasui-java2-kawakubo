@@ -1,0 +1,12 @@
+001 package chapter04;
+002 
+003 public class Ex4_1_2 {
+004     public static void main(String[] args) {
+005         double a, b, c, ans;
+006         a = 1.5;
+007         b = 8.1;
+008         c = 2.2;
+009         ans = a + b + c;
+010         System.out.println(ans);
+011     }
+012 }

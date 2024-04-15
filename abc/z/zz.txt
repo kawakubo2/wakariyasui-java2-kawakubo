@@ -1,0 +1,11 @@
+001 package chapter04;
+002 
+003 public class Pass4_4 {
+004     public static void main(String[] args) {
+005         double area;
+006         double radius = 12.5;
+007         area = radius * radius * 3.14;
+008         System.out.print("面積=");
+009         System.out.println(area);
+010     }
+011 }
