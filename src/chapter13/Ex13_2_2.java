@@ -8,5 +8,13 @@ public class Ex13_2_2 {
             System.out.print(n + " ");
         }
         System.out.println();
+
+        printArray(new int[] {1, 2, 3, 4, 5});
+    }
+    public static void printArray(int[] array) {
+        for (int n : array) {
+            System.out.print(n + "\t");
+        }
+        System.out.println();
     }
 }

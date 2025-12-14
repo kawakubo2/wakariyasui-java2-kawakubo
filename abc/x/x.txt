@@ -1,0 +1,9 @@
+001 package chapter07;
+002 
+003 public class Ex7_1_1_2 {
+004     public static void main(String[] args) {
+005         int[] number = {105, 20, 13};
+006         double[] data = {10.2, 3.5, 2.34, 7.3};
+007         char[] ch = {'G', 'O', 'O', 'D'};
+008     }
+009 }

@@ -1,0 +1,11 @@
+001 package chapter06;
+002 
+003 public class Ex6_2_1 {
+004     public static void main(String[] args) {
+005         double a = 30.51, b = 2.68;
+006         System.out.println(Math.round(a / b));
+007         System.out.println(Math.floor(a / b));
+008         System.out.println(Math.ceil(a / b));
+009 
+010     }
+011 }

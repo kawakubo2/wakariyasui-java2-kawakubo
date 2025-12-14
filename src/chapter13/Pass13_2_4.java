@@ -8,5 +8,11 @@ public class Pass13_2_4 {
         Arrays.stream(temp)
             .filter(t -> t >= 28)
             .forEach(System.out::println);
+
+        for (double t: temp) {
+            if (t >= 28) {
+                System.out.println(t);
+            }
+        }
     }
 }

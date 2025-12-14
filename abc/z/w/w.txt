@@ -1,0 +1,13 @@
+001 package chapter05;
+002 
+003 public class Ex5_5_1 {
+004     public static void main(String[] args) {
+005         int a, b, c;
+006         a = (int)27.56;
+007         b = (int)128L;
+008         c = (int)(357.33 % 6);
+009         System.out.println("a=" + a);
+010         System.out.println("b=" + b);
+011         System.out.println("c=" + c);
+012     }
+013 }
